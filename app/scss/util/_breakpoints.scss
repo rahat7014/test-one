@@ -1,0 +1,17 @@
+// 1500, 1310, 910, 700
+
+$breakpoints-up: (
+    "xllarge" : 1500,
+    "large" : 1310,
+    "medium" : 1150,
+    "mdmedium" : 1050,
+    "smmedium" : 910,
+    "xlsmall" : 800,
+    "small" : 700,
+);
+
+@mixin breakpoint ($size) {
+    @media (max-width: map-get($breakpoints-up, $size)){
+        @content;
+    }
+}

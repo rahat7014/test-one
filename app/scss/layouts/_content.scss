@@ -1,0 +1,21 @@
+.content {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.left-content {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  background: #f6f7fb;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.right-content {
+  display: grid;
+  grid-template-rows: 5% 20% 75%;
+  background: #f6f7fb;
+  margin: 15px 15px 15px 0;
+  padding: 10px 0;
+  border-radius: 15px;
+}
